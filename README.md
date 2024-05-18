@@ -1,4 +1,5 @@
 # vue-crash
+In package.json under scripts are the names of the commands that can be ran with `npm run <script name>`
 
 ## Project setup
 ```
