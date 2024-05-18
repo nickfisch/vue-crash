@@ -14,6 +14,13 @@ export default {
   name: 'App',
   components: {
     TaskHeader
+  },
+  data() {
+    return {
+      tasks: [
+
+      ]
+    }
   }
 }
 </script>
