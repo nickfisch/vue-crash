@@ -3,8 +3,8 @@
     <h1>Task Tracker</h1>
 
     <VueButton text="Add Task" color="green"/>
-    <VueButton text="Update Task" color="blue"/>
-    <VueButton text="Delete Task" color="red"/>
+    <!-- <VueButton text="Update Task" color="blue"/> -->
+    <!-- <VueButton text="Delete Task" color="red"/> -->
   </header>
 </template>
 
