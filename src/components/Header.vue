@@ -2,7 +2,11 @@
   <header>
     <h1>Task Tracker</h1>
 
-    <VueButton text="Add Task" color="green"/>
+    <VueButton 
+      @btn-click="$emit('toggle-add-task')" 
+      :text="showAddTask ? 'Close' : 'Add Task'"
+      :color="showAddTask ? 'red' : 'green'"
+    />
     <!-- <VueButton text="Update Task" color="blue"/> -->
     <!-- <VueButton text="Delete Task" color="red"/> -->
   </header>
@@ -17,7 +21,8 @@ export default {
     title: {
       type: String, 
       default: "Hello title"
-    }
+    },
+    showAddTask: Boolean,
   },
   components: {
     VueButton,
